@@ -1,0 +1,1383 @@
+2026-04-14 21:16:34 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:16:34 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:16:34 [INFO] orchestrator [a637d936-169d-46d8-9cc7-908a96acb912]: Pipeline started: a637d936-169d-46d8-9cc7-908a96acb912 | {'pipeline_id': 'a637d936-169d-46d8-9cc7-908a96acb912', 'stage_count': 13}
+2026-04-14 21:16:34 [INFO] orchestrator [a637d936-169d-46d8-9cc7-908a96acb912]: DRY RUN: Order sending skipped | 
+2026-04-14 21:16:34 [INFO] orchestrator [a637d936-169d-46d8-9cc7-908a96acb912]: Pipeline completed successfully: a637d936-169d-46d8-9cc7-908a96acb912 | 
+2026-04-14 21:16:34 [INFO] orchestrator [a637d936-169d-46d8-9cc7-908a96acb912]: Pipeline completed: a637d936-169d-46d8-9cc7-908a96acb912 | {'pipeline_id': 'a637d936-169d-46d8-9cc7-908a96acb912', 'duration_ms': 19.398927688598633, 'status': 'SUCCESS'}
+2026-04-14 21:19:37 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:19:37 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:19:37 [INFO] orchestrator [a0345bc1-c77a-4bde-ae1f-b54788147d80]: Pipeline started: a0345bc1-c77a-4bde-ae1f-b54788147d80 | {'pipeline_id': 'a0345bc1-c77a-4bde-ae1f-b54788147d80', 'stage_count': 13}
+2026-04-14 21:19:37 [INFO] orchestrator [a0345bc1-c77a-4bde-ae1f-b54788147d80]: DRY RUN: Order sending skipped | 
+2026-04-14 21:19:37 [INFO] orchestrator [a0345bc1-c77a-4bde-ae1f-b54788147d80]: Pipeline completed successfully: a0345bc1-c77a-4bde-ae1f-b54788147d80 | 
+2026-04-14 21:19:37 [INFO] orchestrator [a0345bc1-c77a-4bde-ae1f-b54788147d80]: Pipeline completed: a0345bc1-c77a-4bde-ae1f-b54788147d80 | {'pipeline_id': 'a0345bc1-c77a-4bde-ae1f-b54788147d80', 'duration_ms': 13.153076171875, 'status': 'SUCCESS'}
+2026-04-14 21:19:44 [INFO] orchestrator [ca005c0f-8db5-40fa-9da7-012da6d41c4d]: Pipeline started: ca005c0f-8db5-40fa-9da7-012da6d41c4d | {'pipeline_id': 'ca005c0f-8db5-40fa-9da7-012da6d41c4d', 'stage_count': 13}
+2026-04-14 21:19:44 [INFO] orchestrator [ca005c0f-8db5-40fa-9da7-012da6d41c4d]: DRY RUN: Order sending skipped | 
+2026-04-14 21:19:44 [INFO] orchestrator [ca005c0f-8db5-40fa-9da7-012da6d41c4d]: Pipeline completed successfully: ca005c0f-8db5-40fa-9da7-012da6d41c4d | 
+2026-04-14 21:19:44 [INFO] orchestrator [ca005c0f-8db5-40fa-9da7-012da6d41c4d]: Pipeline completed: ca005c0f-8db5-40fa-9da7-012da6d41c4d | {'pipeline_id': 'ca005c0f-8db5-40fa-9da7-012da6d41c4d', 'duration_ms': 11.65628433227539, 'status': 'SUCCESS'}
+2026-04-14 21:23:59 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:23:59 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:23:59 [INFO] orchestrator [b2cea05a-2221-409e-bc7c-b6311f4ddcaf]: Pipeline started: b2cea05a-2221-409e-bc7c-b6311f4ddcaf | {'pipeline_id': 'b2cea05a-2221-409e-bc7c-b6311f4ddcaf', 'stage_count': 13}
+2026-04-14 21:23:59 [INFO] orchestrator [b2cea05a-2221-409e-bc7c-b6311f4ddcaf]: DRY RUN: Order sending skipped | 
+2026-04-14 21:23:59 [INFO] orchestrator [b2cea05a-2221-409e-bc7c-b6311f4ddcaf]: Pipeline completed successfully: b2cea05a-2221-409e-bc7c-b6311f4ddcaf | 
+2026-04-14 21:23:59 [INFO] orchestrator [b2cea05a-2221-409e-bc7c-b6311f4ddcaf]: Pipeline completed: b2cea05a-2221-409e-bc7c-b6311f4ddcaf | {'pipeline_id': 'b2cea05a-2221-409e-bc7c-b6311f4ddcaf', 'duration_ms': 20.17688751220703, 'status': 'SUCCESS'}
+2026-04-14 21:25:39 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:25:39 [ERROR] cli [none]: Pipeline failed: 'NewsCollector' object has no attribute 'user_agent' | 
+2026-04-14 21:26:19 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:26:19 [INFO] orchestrator [0d841c46-b0be-4588-90a4-a65551d68f45]: Pipeline started: 0d841c46-b0be-4588-90a4-a65551d68f45 | {'pipeline_id': '0d841c46-b0be-4588-90a4-a65551d68f45', 'stage_count': 13}
+2026-04-14 21:26:19 [INFO] orchestrator [0d841c46-b0be-4588-90a4-a65551d68f45]: Fetching news from 14 RSS sources | 
+2026-04-14 21:26:19 [INFO] news_collector [none]: Fetching 14 RSS feeds | 
+2026-04-14 21:26:20 [WARNING] news_collector [none]: Feed fetch failed: https://www.reuters.com/business/ - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:26:21 [WARNING] news_collector [none]: Feed fetch failed: https://www.bloomberg.com/markets/ - HTTP 403: Forbidden | 
+2026-04-14 21:26:22 [WARNING] news_collector [none]: Feed fetch failed: https://www.wsj.com/markets - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:26:23 [WARNING] news_collector [none]: Feed fetch failed: https://www.federalreserve.gov/newsevents/pressreleases.htm - HTTP 406: Not Acceptable | 
+2026-04-14 21:26:24 [WARNING] news_collector [none]: Feed parsing error: https://home.treasury.gov/news/press-releases - Feed parsing error: <unknown>:7:45: not well-formed (invalid token) | 
+2026-04-14 21:26:24 [INFO] news_collector [none]: Feed fetched successfully: https://home.treasury.gov/news/press-releases - 0 articles in 834.6ms | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:25 [INFO] news_collector [none]: Feed fetched successfully: https://www.coindesk.com/arc/outboundfeeds/rss/ - 0 articles in 1009.1ms | 
+2026-04-14 21:26:27 [WARNING] news_collector [none]: Feed parsing error: https://www.cnbc.com/markets/ - Feed parsing error: <unknown>:32:11079: not well-formed (invalid token) | 
+2026-04-14 21:26:27 [INFO] news_collector [none]: Feed fetched successfully: https://www.cnbc.com/markets/ - 0 articles in 943.4ms | 
+2026-04-14 21:26:28 [WARNING] news_collector [none]: Feed parsing error: https://www.marketwatch.com/ - Feed parsing error: <unknown>:8:277: not well-formed (invalid token) | 
+2026-04-14 21:26:28 [INFO] news_collector [none]: Feed fetched successfully: https://www.marketwatch.com/ - 0 articles in 850.6ms | 
+2026-04-14 21:26:29 [WARNING] news_collector [none]: Feed parsing error: https://www.bea.gov/news - Feed parsing error: <unknown>:20:78: not well-formed (invalid token) | 
+2026-04-14 21:26:29 [INFO] news_collector [none]: Feed fetched successfully: https://www.bea.gov/news - 0 articles in 1436.3ms | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:30 [INFO] news_collector [none]: Feed fetched successfully: https://finance.yahoo.com/rss/ - 0 articles in 771.6ms | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:26:31 [INFO] news_collector [none]: Feed fetched successfully: https://seekingalpha.com/feed.xml - 0 articles in 835.4ms | 
+2026-04-14 21:26:32 [INFO] news_collector [none]: Feed fetched successfully: https://cointelegraph.com/rss - 30 articles in 760.3ms | 
+2026-04-14 21:26:33 [WARNING] news_collector [none]: Feed fetch failed: https://oilprice.com/rss/latest - HTTP 404: Not Found | 
+2026-04-14 21:26:34 [WARNING] news_collector [none]: Feed parsing error: https://www.kitco.com/news/rss - Feed parsing error: <unknown>:19:594: not well-formed (invalid token) | 
+2026-04-14 21:26:34 [INFO] news_collector [none]: Feed fetched successfully: https://www.kitco.com/news/rss - 0 articles in 1055.4ms | 
+2026-04-14 21:26:34 [INFO] news_collector [none]: Fetched 30 articles from 9/14 feeds in 15796.1ms | 
+2026-04-14 21:26:34 [INFO] orchestrator [0d841c46-b0be-4588-90a4-a65551d68f45]: News fetching completed: 30 articles fetched | 
+2026-04-14 21:26:34 [INFO] orchestrator [0d841c46-b0be-4588-90a4-a65551d68f45]: DRY RUN: Order sending skipped | 
+2026-04-14 21:26:34 [INFO] orchestrator [0d841c46-b0be-4588-90a4-a65551d68f45]: Pipeline completed successfully: 0d841c46-b0be-4588-90a4-a65551d68f45 | 
+2026-04-14 21:26:34 [INFO] orchestrator [0d841c46-b0be-4588-90a4-a65551d68f45]: Pipeline completed: 0d841c46-b0be-4588-90a4-a65551d68f45 | {'pipeline_id': '0d841c46-b0be-4588-90a4-a65551d68f45', 'duration_ms': 15815.134525299072, 'status': 'SUCCESS'}
+2026-04-14 21:27:38 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:27:38 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:27:38 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-14 21:27:38 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: Pipeline started: bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40 | {'pipeline_id': 'bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40', 'stage_count': 13}
+2026-04-14 21:27:38 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: Fetching news from 14 RSS sources | 
+2026-04-14 21:27:38 [INFO] news_collector [none]: Fetching 14 RSS feeds | 
+2026-04-14 21:27:39 [WARNING] news_collector [none]: Feed fetch failed: https://www.reuters.com/business/ - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:27:40 [WARNING] news_collector [none]: Feed fetch failed: https://www.bloomberg.com/markets/ - HTTP 403: Forbidden | 
+2026-04-14 21:27:41 [WARNING] news_collector [none]: Feed fetch failed: https://www.wsj.com/markets - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:27:42 [WARNING] news_collector [none]: Feed fetch failed: https://www.federalreserve.gov/newsevents/pressreleases.htm - HTTP 406: Not Acceptable | 
+2026-04-14 21:27:43 [WARNING] news_collector [none]: Feed parsing error: https://home.treasury.gov/news/press-releases - Feed parsing error: <unknown>:7:45: not well-formed (invalid token) | 
+2026-04-14 21:27:43 [INFO] news_collector [none]: Feed fetched successfully: https://home.treasury.gov/news/press-releases - 0 articles in 1129.2ms | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:44 [INFO] news_collector [none]: Feed fetched successfully: https://www.coindesk.com/arc/outboundfeeds/rss/ - 0 articles in 927.9ms | 
+2026-04-14 21:27:46 [WARNING] news_collector [none]: Feed parsing error: https://www.cnbc.com/markets/ - Feed parsing error: <unknown>:32:11079: not well-formed (invalid token) | 
+2026-04-14 21:27:46 [INFO] news_collector [none]: Feed fetched successfully: https://www.cnbc.com/markets/ - 0 articles in 981.4ms | 
+2026-04-14 21:27:47 [WARNING] news_collector [none]: Feed parsing error: https://www.marketwatch.com/ - Feed parsing error: <unknown>:8:277: not well-formed (invalid token) | 
+2026-04-14 21:27:47 [INFO] news_collector [none]: Feed fetched successfully: https://www.marketwatch.com/ - 0 articles in 1057.4ms | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Feed parsing error: https://www.bea.gov/news - Feed parsing error: <unknown>:20:78: not well-formed (invalid token) | 
+2026-04-14 21:27:49 [INFO] news_collector [none]: Feed fetched successfully: https://www.bea.gov/news - 0 articles in 1182.7ms | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:49 [INFO] news_collector [none]: Feed fetched successfully: https://finance.yahoo.com/rss/ - 0 articles in 862.2ms | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:27:50 [INFO] news_collector [none]: Feed fetched successfully: https://seekingalpha.com/feed.xml - 0 articles in 735.4ms | 
+2026-04-14 21:27:51 [INFO] news_collector [none]: Feed fetched successfully: https://cointelegraph.com/rss - 30 articles in 823.9ms | 
+2026-04-14 21:27:52 [WARNING] news_collector [none]: Feed fetch failed: https://oilprice.com/rss/latest - HTTP 404: Not Found | 
+2026-04-14 21:27:54 [WARNING] news_collector [none]: Feed parsing error: https://www.kitco.com/news/rss - Feed parsing error: <unknown>:19:594: not well-formed (invalid token) | 
+2026-04-14 21:27:54 [INFO] news_collector [none]: Feed fetched successfully: https://www.kitco.com/news/rss - 0 articles in 1291.2ms | 
+2026-04-14 21:27:54 [INFO] news_collector [none]: Fetched 30 articles from 9/14 feeds in 15410.3ms | 
+2026-04-14 21:27:54 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: News fetching completed: 30 articles fetched | 
+2026-04-14 21:27:54 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: Deduplicating 30 articles | 
+2026-04-14 21:27:54 [INFO] duplicate_filter [none]: Filtering duplicates from 30 articles | 
+2026-04-14 21:27:54 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:27:54 [INFO] duplicate_filter [none]: Duplicate filtering completed: 30 unique, 0 duplicates removed in 213.8ms | 
+2026-04-14 21:27:54 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: Deduplication completed: 30 unique articles, 0 duplicates removed | 
+2026-04-14 21:27:54 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: DRY RUN: Order sending skipped | 
+2026-04-14 21:27:54 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: Pipeline completed successfully: bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40 | 
+2026-04-14 21:27:54 [INFO] orchestrator [bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40]: Pipeline completed: bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40 | {'pipeline_id': 'bd8bd5fa-b641-4ac0-a0c9-5f2e16f24a40', 'duration_ms': 15643.129587173462, 'status': 'SUCCESS'}
+2026-04-14 21:28:39 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:28:39 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:28:39 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Pipeline started: 60ce2ba4-8059-4054-86a8-e8a08c7bfa7e | {'pipeline_id': '60ce2ba4-8059-4054-86a8-e8a08c7bfa7e', 'stage_count': 13}
+2026-04-14 21:28:39 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Fetching news from 14 RSS sources | 
+2026-04-14 21:28:39 [INFO] news_collector [none]: Fetching 14 RSS feeds | 
+2026-04-14 21:28:40 [WARNING] news_collector [none]: Feed fetch failed: https://www.reuters.com/business/ - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:28:41 [WARNING] news_collector [none]: Feed fetch failed: https://www.bloomberg.com/markets/ - HTTP 403: Forbidden | 
+2026-04-14 21:28:42 [WARNING] news_collector [none]: Feed fetch failed: https://www.wsj.com/markets - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:28:43 [WARNING] news_collector [none]: Feed fetch failed: https://www.federalreserve.gov/newsevents/pressreleases.htm - HTTP 406: Not Acceptable | 
+2026-04-14 21:28:44 [WARNING] news_collector [none]: Feed parsing error: https://home.treasury.gov/news/press-releases - Feed parsing error: <unknown>:7:45: not well-formed (invalid token) | 
+2026-04-14 21:28:44 [INFO] news_collector [none]: Feed fetched successfully: https://home.treasury.gov/news/press-releases - 0 articles in 840.6ms | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:45 [INFO] news_collector [none]: Feed fetched successfully: https://www.coindesk.com/arc/outboundfeeds/rss/ - 0 articles in 922.8ms | 
+2026-04-14 21:28:46 [WARNING] news_collector [none]: Feed parsing error: https://www.cnbc.com/markets/ - Feed parsing error: <unknown>:32:11079: not well-formed (invalid token) | 
+2026-04-14 21:28:46 [INFO] news_collector [none]: Feed fetched successfully: https://www.cnbc.com/markets/ - 0 articles in 756.0ms | 
+2026-04-14 21:28:47 [WARNING] news_collector [none]: Feed parsing error: https://www.marketwatch.com/ - Feed parsing error: <unknown>:8:277: not well-formed (invalid token) | 
+2026-04-14 21:28:47 [INFO] news_collector [none]: Feed fetched successfully: https://www.marketwatch.com/ - 0 articles in 1043.9ms | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Feed parsing error: https://www.bea.gov/news - Feed parsing error: <unknown>:20:78: not well-formed (invalid token) | 
+2026-04-14 21:28:49 [INFO] news_collector [none]: Feed fetched successfully: https://www.bea.gov/news - 0 articles in 1297.9ms | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:49 [INFO] news_collector [none]: Feed fetched successfully: https://finance.yahoo.com/rss/ - 0 articles in 764.5ms | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:28:50 [INFO] news_collector [none]: Feed fetched successfully: https://seekingalpha.com/feed.xml - 0 articles in 620.2ms | 
+2026-04-14 21:28:51 [INFO] news_collector [none]: Feed fetched successfully: https://cointelegraph.com/rss - 30 articles in 676.1ms | 
+2026-04-14 21:28:52 [WARNING] news_collector [none]: Feed fetch failed: https://oilprice.com/rss/latest - HTTP 404: Not Found | 
+2026-04-14 21:28:53 [WARNING] news_collector [none]: Feed parsing error: https://www.kitco.com/news/rss - Feed parsing error: <unknown>:19:594: not well-formed (invalid token) | 
+2026-04-14 21:28:53 [INFO] news_collector [none]: Feed fetched successfully: https://www.kitco.com/news/rss - 0 articles in 1105.6ms | 
+2026-04-14 21:28:53 [INFO] news_collector [none]: Fetched 30 articles from 9/14 feeds in 14061.0ms | 
+2026-04-14 21:28:53 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: News fetching completed: 30 articles fetched | 
+2026-04-14 21:28:53 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Deduplicating 30 articles | 
+2026-04-14 21:28:53 [INFO] duplicate_filter [none]: Filtering duplicates from 30 articles | 
+2026-04-14 21:28:53 [ERROR] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Deduplication failed: '>' not supported between instances of 'str' and 'datetime.datetime' | 
+2026-04-14 21:28:53 [ERROR] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Stage deduplicate_articles failed: '>' not supported between instances of 'str' and 'datetime.datetime' | 
+2026-04-14 21:28:53 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Validating 30 articles | 
+2026-04-14 21:28:53 [INFO] news_validator [none]: Validating 30 articles | 
+2026-04-14 21:28:53 [INFO] news_validator [none]: Validation completed: 13/30 valid, avg confidence: 0.314 | 
+2026-04-14 21:28:53 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Article validation completed: 13 valid, 17 rejected, avg confidence: 0.314 | 
+2026-04-14 21:28:53 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: DRY RUN: Order sending skipped | 
+2026-04-14 21:28:53 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Pipeline completed successfully: 60ce2ba4-8059-4054-86a8-e8a08c7bfa7e | 
+2026-04-14 21:28:53 [INFO] orchestrator [60ce2ba4-8059-4054-86a8-e8a08c7bfa7e]: Pipeline completed: 60ce2ba4-8059-4054-86a8-e8a08c7bfa7e | {'pipeline_id': '60ce2ba4-8059-4054-86a8-e8a08c7bfa7e', 'duration_ms': 14121.294021606445, 'status': 'SUCCESS'}
+2026-04-14 21:29:54 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:29:54 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:29:54 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Pipeline started: 25b20631-68ff-4df7-9f06-c708cb8ddd4d | {'pipeline_id': '25b20631-68ff-4df7-9f06-c708cb8ddd4d', 'stage_count': 13}
+2026-04-14 21:29:54 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Fetching news from 14 RSS sources | 
+2026-04-14 21:29:54 [INFO] news_collector [none]: Fetching 14 RSS feeds | 
+2026-04-14 21:29:55 [WARNING] news_collector [none]: Feed fetch failed: https://www.reuters.com/business/ - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:29:56 [WARNING] news_collector [none]: Feed fetch failed: https://www.bloomberg.com/markets/ - HTTP 403: Forbidden | 
+2026-04-14 21:29:57 [WARNING] news_collector [none]: Feed fetch failed: https://www.wsj.com/markets - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:29:57 [WARNING] news_collector [none]: Feed parsing error: https://www.federalreserve.gov/newsevents/pressreleases.htm - Feed parsing error: <unknown>:2:0: syntax error | 
+2026-04-14 21:29:57 [INFO] news_collector [none]: Feed fetched successfully: https://www.federalreserve.gov/newsevents/pressreleases.htm - 0 articles in 820.8ms | 
+2026-04-14 21:29:58 [WARNING] news_collector [none]: Feed parsing error: https://home.treasury.gov/news/press-releases - Feed parsing error: <unknown>:7:45: not well-formed (invalid token) | 
+2026-04-14 21:29:58 [INFO] news_collector [none]: Feed fetched successfully: https://home.treasury.gov/news/press-releases - 0 articles in 777.1ms | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:29:59 [INFO] news_collector [none]: Feed fetched successfully: https://www.coindesk.com/arc/outboundfeeds/rss/ - 0 articles in 891.7ms | 
+2026-04-14 21:30:01 [WARNING] news_collector [none]: Feed parsing error: https://www.cnbc.com/markets/ - Feed parsing error: <unknown>:32:11079: not well-formed (invalid token) | 
+2026-04-14 21:30:01 [INFO] news_collector [none]: Feed fetched successfully: https://www.cnbc.com/markets/ - 0 articles in 953.3ms | 
+2026-04-14 21:30:02 [WARNING] news_collector [none]: Feed parsing error: https://www.marketwatch.com/ - Feed parsing error: <unknown>:8:277: not well-formed (invalid token) | 
+2026-04-14 21:30:02 [INFO] news_collector [none]: Feed fetched successfully: https://www.marketwatch.com/ - 0 articles in 829.0ms | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Feed parsing error: https://www.bea.gov/news - Feed parsing error: <unknown>:20:78: not well-formed (invalid token) | 
+2026-04-14 21:30:04 [INFO] news_collector [none]: Feed fetched successfully: https://www.bea.gov/news - 0 articles in 1315.5ms | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:04 [INFO] news_collector [none]: Feed fetched successfully: https://finance.yahoo.com/rss/ - 0 articles in 715.4ms | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:30:05 [INFO] news_collector [none]: Feed fetched successfully: https://seekingalpha.com/feed.xml - 0 articles in 883.6ms | 
+2026-04-14 21:30:06 [INFO] news_collector [none]: Feed fetched successfully: https://cointelegraph.com/rss - 30 articles in 778.9ms | 
+2026-04-14 21:30:07 [WARNING] news_collector [none]: Feed fetch failed: https://oilprice.com/rss/latest - HTTP 404: Not Found | 
+2026-04-14 21:30:09 [WARNING] news_collector [none]: Feed parsing error: https://www.kitco.com/news/rss - Feed parsing error: <unknown>:19:594: not well-formed (invalid token) | 
+2026-04-14 21:30:09 [INFO] news_collector [none]: Feed fetched successfully: https://www.kitco.com/news/rss - 0 articles in 1161.2ms | 
+2026-04-14 21:30:09 [INFO] news_collector [none]: Fetched 30 articles from 10/14 feeds in 14759.6ms | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: News fetching completed: 30 articles fetched | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Deduplicating 30 articles | 
+2026-04-14 21:30:09 [INFO] duplicate_filter [none]: Filtering duplicates from 30 articles | 
+2026-04-14 21:30:09 [ERROR] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Deduplication failed: '>' not supported between instances of 'str' and 'datetime.datetime' | 
+2026-04-14 21:30:09 [ERROR] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Stage deduplicate_articles failed: '>' not supported between instances of 'str' and 'datetime.datetime' | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Validating 30 articles | 
+2026-04-14 21:30:09 [INFO] news_validator [none]: Validating 30 articles | 
+2026-04-14 21:30:09 [INFO] news_validator [none]: Validation completed: 13/30 valid, avg confidence: 0.314 | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Article validation completed: 13 valid, 17 rejected, avg confidence: 0.314 | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Generating signals from 13 validated articles | 
+2026-04-14 21:30:09 [INFO] signal_generator [none]: Generating signals from 13 articles | 
+2026-04-14 21:30:09 [INFO] signal_generator [none]: No signals generated | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Signal generation completed: 0 signals generated, avg confidence: 0.000 | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: DRY RUN: Order sending skipped | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Pipeline completed successfully: 25b20631-68ff-4df7-9f06-c708cb8ddd4d | 
+2026-04-14 21:30:09 [INFO] orchestrator [25b20631-68ff-4df7-9f06-c708cb8ddd4d]: Pipeline completed: 25b20631-68ff-4df7-9f06-c708cb8ddd4d | {'pipeline_id': '25b20631-68ff-4df7-9f06-c708cb8ddd4d', 'duration_ms': 14835.186004638672, 'status': 'SUCCESS'}
+2026-04-14 21:31:20 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:31:20 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:31:20 [ERROR] cli [none]: Pipeline failed: 'Config' object has no attribute 'MAX_PORTFOLIO_EXPOSURE' | 
+2026-04-14 21:31:42 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:31:42 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:31:42 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:31:42 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Pipeline started: 05960a8b-56c8-4c63-b9d6-1372e1f45e6b | {'pipeline_id': '05960a8b-56c8-4c63-b9d6-1372e1f45e6b', 'stage_count': 13}
+2026-04-14 21:31:42 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Fetching news from 14 RSS sources | 
+2026-04-14 21:31:42 [INFO] news_collector [none]: Fetching 14 RSS feeds | 
+2026-04-14 21:31:43 [WARNING] news_collector [none]: Feed fetch failed: https://www.reuters.com/business/ - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:31:44 [WARNING] news_collector [none]: Feed fetch failed: https://www.bloomberg.com/markets/ - HTTP 403: Forbidden | 
+2026-04-14 21:31:45 [WARNING] news_collector [none]: Feed fetch failed: https://www.wsj.com/markets - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:31:46 [WARNING] news_collector [none]: Feed parsing error: https://www.federalreserve.gov/newsevents/pressreleases.htm - Feed parsing error: <unknown>:2:0: syntax error | 
+2026-04-14 21:31:46 [INFO] news_collector [none]: Feed fetched successfully: https://www.federalreserve.gov/newsevents/pressreleases.htm - 0 articles in 847.0ms | 
+2026-04-14 21:31:48 [WARNING] news_collector [none]: Feed parsing error: https://home.treasury.gov/news/press-releases - Feed parsing error: <unknown>:7:45: not well-formed (invalid token) | 
+2026-04-14 21:31:48 [INFO] news_collector [none]: Feed fetched successfully: https://home.treasury.gov/news/press-releases - 0 articles in 1484.8ms | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:49 [INFO] news_collector [none]: Feed fetched successfully: https://www.coindesk.com/arc/outboundfeeds/rss/ - 0 articles in 1507.7ms | 
+2026-04-14 21:31:51 [WARNING] news_collector [none]: Feed parsing error: https://www.cnbc.com/markets/ - Feed parsing error: <unknown>:32:11079: not well-formed (invalid token) | 
+2026-04-14 21:31:51 [INFO] news_collector [none]: Feed fetched successfully: https://www.cnbc.com/markets/ - 0 articles in 875.3ms | 
+2026-04-14 21:31:52 [WARNING] news_collector [none]: Feed parsing error: https://www.marketwatch.com/ - Feed parsing error: <unknown>:8:277: not well-formed (invalid token) | 
+2026-04-14 21:31:52 [INFO] news_collector [none]: Feed fetched successfully: https://www.marketwatch.com/ - 0 articles in 761.1ms | 
+2026-04-14 21:31:53 [WARNING] news_collector [none]: Feed parsing error: https://www.bea.gov/news - Feed parsing error: <unknown>:20:78: not well-formed (invalid token) | 
+2026-04-14 21:31:53 [INFO] news_collector [none]: Feed fetched successfully: https://www.bea.gov/news - 0 articles in 1154.7ms | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:54 [INFO] news_collector [none]: Feed fetched successfully: https://finance.yahoo.com/rss/ - 0 articles in 732.7ms | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:31:55 [INFO] news_collector [none]: Feed fetched successfully: https://seekingalpha.com/feed.xml - 0 articles in 718.1ms | 
+2026-04-14 21:31:56 [INFO] news_collector [none]: Feed fetched successfully: https://cointelegraph.com/rss - 30 articles in 798.3ms | 
+2026-04-14 21:31:57 [WARNING] news_collector [none]: Feed fetch failed: https://oilprice.com/rss/latest - HTTP 404: Not Found | 
+2026-04-14 21:31:58 [WARNING] news_collector [none]: Feed parsing error: https://www.kitco.com/news/rss - Feed parsing error: <unknown>:19:594: not well-formed (invalid token) | 
+2026-04-14 21:31:58 [INFO] news_collector [none]: Feed fetched successfully: https://www.kitco.com/news/rss - 0 articles in 958.8ms | 
+2026-04-14 21:31:58 [INFO] news_collector [none]: Fetched 30 articles from 10/14 feeds in 15792.1ms | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: News fetching completed: 30 articles fetched | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Deduplicating 30 articles | 
+2026-04-14 21:31:58 [INFO] duplicate_filter [none]: Filtering duplicates from 30 articles | 
+2026-04-14 21:31:58 [ERROR] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Deduplication failed: '>' not supported between instances of 'str' and 'datetime.datetime' | 
+2026-04-14 21:31:58 [ERROR] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Stage deduplicate_articles failed: '>' not supported between instances of 'str' and 'datetime.datetime' | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Validating 30 articles | 
+2026-04-14 21:31:58 [INFO] news_validator [none]: Validating 30 articles | 
+2026-04-14 21:31:58 [INFO] news_validator [none]: Validation completed: 13/30 valid, avg confidence: 0.314 | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Article validation completed: 13 valid, 17 rejected, avg confidence: 0.314 | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Generating signals from 13 validated articles | 
+2026-04-14 21:31:58 [INFO] signal_generator [none]: Generating signals from 13 articles | 
+2026-04-14 21:31:58 [INFO] signal_generator [none]: No signals generated | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Signal generation completed: 0 signals generated, avg confidence: 0.000 | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: DRY RUN: Order sending skipped | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Pipeline completed successfully: 05960a8b-56c8-4c63-b9d6-1372e1f45e6b | 
+2026-04-14 21:31:58 [INFO] orchestrator [05960a8b-56c8-4c63-b9d6-1372e1f45e6b]: Pipeline completed: 05960a8b-56c8-4c63-b9d6-1372e1f45e6b | {'pipeline_id': '05960a8b-56c8-4c63-b9d6-1372e1f45e6b', 'duration_ms': 15876.99556350708, 'status': 'SUCCESS'}
+2026-04-14 21:34:11 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-14 21:34:11 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:34:11 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:34:11 [INFO] performance_tracker [none]: Loaded performance state: 0 pipeline runs, 0 stage metrics | 
+2026-04-14 21:34:11 [INFO] orchestrator [none]: Pipeline started: d224feed-f976-4747-90be-dda8a3be7236 | 
+2026-04-14 21:34:11 [INFO] orchestrator [none]: Fetching news from 14 RSS sources | 
+2026-04-14 21:34:11 [INFO] news_collector [none]: Fetching 14 RSS feeds | 
+2026-04-14 21:34:12 [WARNING] news_collector [none]: Feed fetch failed: https://www.reuters.com/business/ - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:34:13 [WARNING] news_collector [none]: Feed fetch failed: https://www.bloomberg.com/markets/ - HTTP 403: Forbidden | 
+2026-04-14 21:34:14 [WARNING] news_collector [none]: Feed fetch failed: https://www.wsj.com/markets - HTTP 401: HTTP Forbidden | 
+2026-04-14 21:34:14 [WARNING] news_collector [none]: Feed parsing error: https://www.federalreserve.gov/newsevents/pressreleases.htm - Feed parsing error: <unknown>:2:0: syntax error | 
+2026-04-14 21:34:14 [INFO] news_collector [none]: Feed fetched successfully: https://www.federalreserve.gov/newsevents/pressreleases.htm - 0 articles in 741.4ms | 
+2026-04-14 21:34:16 [WARNING] news_collector [none]: Feed parsing error: https://home.treasury.gov/news/press-releases - Feed parsing error: <unknown>:7:45: not well-formed (invalid token) | 
+2026-04-14 21:34:16 [INFO] news_collector [none]: Feed fetched successfully: https://home.treasury.gov/news/press-releases - 0 articles in 1040.0ms | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:17 [INFO] news_collector [none]: Feed fetched successfully: https://www.coindesk.com/arc/outboundfeeds/rss/ - 0 articles in 1338.3ms | 
+2026-04-14 21:34:19 [WARNING] news_collector [none]: Feed parsing error: https://www.cnbc.com/markets/ - Feed parsing error: <unknown>:32:11204: not well-formed (invalid token) | 
+2026-04-14 21:34:19 [INFO] news_collector [none]: Feed fetched successfully: https://www.cnbc.com/markets/ - 0 articles in 1137.6ms | 
+2026-04-14 21:34:20 [WARNING] news_collector [none]: Feed parsing error: https://www.marketwatch.com/ - Feed parsing error: <unknown>:8:277: not well-formed (invalid token) | 
+2026-04-14 21:34:20 [INFO] news_collector [none]: Feed fetched successfully: https://www.marketwatch.com/ - 0 articles in 801.7ms | 
+2026-04-14 21:34:21 [WARNING] news_collector [none]: Feed parsing error: https://www.bea.gov/news - Feed parsing error: <unknown>:20:78: not well-formed (invalid token) | 
+2026-04-14 21:34:21 [INFO] news_collector [none]: Feed fetched successfully: https://www.bea.gov/news - 0 articles in 1120.7ms | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:22 [INFO] news_collector [none]: Feed fetched successfully: https://finance.yahoo.com/rss/ - 0 articles in 811.6ms | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 21:34:23 [INFO] news_collector [none]: Feed fetched successfully: https://seekingalpha.com/feed.xml - 0 articles in 1008.6ms | 
+2026-04-14 21:34:24 [INFO] news_collector [none]: Feed fetched successfully: https://cointelegraph.com/rss - 30 articles in 975.6ms | 
+2026-04-14 21:34:25 [WARNING] news_collector [none]: Feed fetch failed: https://oilprice.com/rss/latest - HTTP 404: Not Found | 
+2026-04-14 21:34:28 [WARNING] news_collector [none]: Feed parsing error: https://www.kitco.com/news/rss - Feed parsing error: <unknown>:19:594: not well-formed (invalid token) | 
+2026-04-14 21:34:28 [INFO] news_collector [none]: Feed fetched successfully: https://www.kitco.com/news/rss - 0 articles in 2256.8ms | 
+2026-04-14 21:34:28 [INFO] news_collector [none]: Fetched 30 articles from 10/14 feeds in 16935.6ms | 
+2026-04-14 21:34:28 [INFO] orchestrator [none]: News fetching completed: 30 articles fetched | 
+2026-04-14 21:34:28 [INFO] orchestrator [none]: Deduplicating 30 articles | 
+2026-04-14 21:34:28 [INFO] duplicate_filter [none]: Filtering duplicates from 30 articles | 
+2026-04-14 21:34:28 [ERROR] orchestrator [none]: Deduplication failed: '>' not supported between instances of 'str' and 'datetime.datetime' | 
+2026-04-14 21:34:28 [INFO] performance_tracker [none]: Pipeline completed: 16962.09ms, 0 articles, 0 signals | 
+2026-04-14 21:34:28 [ERROR] cli [none]: Pipeline failed: PipelineResult.__init__() got an unexpected keyword argument 'pipeline_id' | 
+2026-04-14 21:36:35 [INFO] news_collector [none]: Feed fetched successfully: https://example.com/feed - 1 articles in 0.3ms | 
+2026-04-14 21:36:35 [WARNING] news_collector [none]: Feed fetch failed: https://example.com/feed - HTTP 404: Not Found | 
+2026-04-14 21:36:35 [ERROR] news_collector [none]: Feed fetch timeout: https://example.com/feed | 
+2026-04-14 21:36:35 [WARNING] news_collector [none]: Feed parsing error: https://example.com/feed - Feed parsing error: Parse error | 
+2026-04-14 21:36:35 [INFO] news_collector [none]: Feed fetched successfully: https://example.com/feed - 0 articles in 0.2ms | 
+2026-04-14 21:36:35 [INFO] news_collector [none]: Fetching 3 RSS feeds | 
+2026-04-14 21:37:00 [INFO] news_collector [none]: Feed fetched successfully: https://example.com/feed - 1 articles in 0.3ms | 
+2026-04-14 21:37:00 [WARNING] news_collector [none]: Feed fetch failed: https://example.com/feed - HTTP 404: Not Found | 
+2026-04-14 21:37:00 [ERROR] news_collector [none]: Feed fetch timeout: https://example.com/feed | 
+2026-04-14 21:37:00 [WARNING] news_collector [none]: Feed parsing error: https://example.com/feed - Feed parsing error: Parse error | 
+2026-04-14 21:37:00 [INFO] news_collector [none]: Feed fetched successfully: https://example.com/feed - 0 articles in 0.2ms | 
+2026-04-14 21:37:00 [INFO] news_collector [none]: Fetching 3 RSS feeds | 
+2026-04-14 21:37:00 [INFO] news_collector [none]: Fetched 2 articles from 2/3 feeds in 0.3ms | 
+2026-04-14 21:53:59 [INFO] news_collector [none]: Feed fetched successfully: https://example.com/feed - 1 articles in 0.4ms | 
+2026-04-14 21:53:59 [WARNING] news_collector [none]: Feed fetch failed: https://example.com/feed - HTTP 404: Not Found | 
+2026-04-14 21:53:59 [ERROR] news_collector [none]: Feed fetch timeout: https://example.com/feed | 
+2026-04-14 21:54:00 [WARNING] news_collector [none]: Feed parsing error: https://example.com/feed - Feed parsing error: Parse error | 
+2026-04-14 21:54:00 [INFO] news_collector [none]: Feed fetched successfully: https://example.com/feed - 0 articles in 0.3ms | 
+2026-04-14 21:54:00 [INFO] news_collector [none]: Fetching 3 RSS feeds | 
+2026-04-14 21:54:00 [INFO] news_collector [none]: Fetched 2 articles from 2/3 feeds in 0.6ms | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Filtering duplicates from 5 articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 29 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Duplicate filter state reset | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Filtering duplicates from 60 articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Duplicate filtering completed: 6 unique, 54 duplicates removed in 23.7ms | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 6 URL hashes, 6 seen articles | 
+2026-04-14 21:54:07 [INFO] duplicate_filter [none]: Filtering duplicates from 1000 articles | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: 5 consecutive losses | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [WARNING] risk_manager [none]: Circuit breaker triggered: Portfolio loss exceeded threshold | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Position updated: AAPL qty=100 P&L=0.000 daily P&L=0.000 consecutive_losses=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=15000.000, positions=1 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Position updated: AAPL qty=100 P&L=0.000 daily P&L=0.000 consecutive_losses=0 | 
+2026-04-14 21:55:09 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=30000.000, positions=1 | 
+2026-04-14 21:55:09 [WARNING] risk_manager [none]: Cannot close non-existent position: NONEXISTENT | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=30000.000, positions=1 | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Position updated: AAPL qty=100 P&L=0.000 daily P&L=0.000 consecutive_losses=0 | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Position updated: GOOGL qty=50 P&L=0.000 daily P&L=0.000 consecutive_losses=0 | 
+2026-04-14 21:55:10 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=145000.000, positions=2 | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Kill switch manually reset | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=145000.000, positions=2 | 
+2026-04-14 21:55:10 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=145000.000, positions=2 | 
+2026-04-14 21:55:10 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=145000.000, positions=2 | 
+2026-04-14 21:55:10 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=15000.000, positions=0 | 
+2026-04-14 21:56:14 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=145000.000, positions=2 | 
+2026-04-14 21:56:14 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:56:39 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:56:39 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:56:39 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 21:57:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:57:09 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:57:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:57:09 [INFO] risk_manager [none]: Position updated: TEST qty=100 P&L=100.000 daily P&L=100.000 consecutive_losses=0 | 
+2026-04-14 21:57:22 [INFO] risk_manager [none]: Loaded risk state: PnL=100.000, exposure=10000.000, positions=1 | 
+2026-04-14 21:57:41 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 21:57:41 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 21:57:41 [ERROR] risk_manager [none]: Kill switch activated: Daily loss exceeded 0.050 | 
+2026-04-14 22:01:01 [ERROR] news_collector [none]: Feed fetch timeout: https://timeout-test.com/feed | 
+2026-04-14 22:01:15 [WARNING] news_collector [none]: Feed parsing error: https://bad-xml.com/feed - Feed parsing error: <unknown>:2:22: no element found | 
+2026-04-14 22:01:15 [INFO] news_collector [none]: Feed fetched successfully: https://bad-xml.com/feed - 0 articles in 0.5ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.9ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.7ms | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.5ms | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.4ms | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.3ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.2ms | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.3ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 6.9ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 6.4ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 1.3ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.2ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.3ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 3.8ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.8ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.2ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 1.2ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 7.2ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.2ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.3ms | 
+2026-04-14 22:01:51 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-14 22:01:51 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.8ms | 
+2026-04-14 22:04:00 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:04:50 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:00 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [WinError 32] The process cannot access the file because it is being used by another process: './data\\state.json.tmp' -> './data\\state.json' | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [WinError 32] The process cannot access the file because it is being used by another process: './data\\state.json.tmp' -> './data\\state.json' | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [WinError 32] The process cannot access the file because it is being used by another process: './data\\state.json.tmp' -> './data\\state.json' | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [WinError 32] The process cannot access the file because it is being used by another process: './data\\state.json.tmp' -> './data\\state.json' | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [Errno 13] Permission denied: './data\\state.json.tmp' | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [Errno 13] Permission denied: './data\\state.json.tmp' | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [WinError 5] Access is denied: './data\\state.json.tmp' -> './data\\state.json' | 
+2026-04-14 22:05:09 [ERROR] state_manager [none]: Failed to save state: [Errno 13] Permission denied: './data\\state.json.tmp' | 
+2026-04-14 22:05:46 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 22:05:58 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 22:06:24 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-14 22:06:24 [INFO] risk_manager [none]: Position updated: TEST qty=100 P&L=0.000 daily P&L=0.000 consecutive_losses=0 | 
+2026-04-14 22:06:24 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=10000.000, positions=1 | 
+2026-04-14 22:07:48 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-14 22:07:48 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-14 22:07:48 [INFO] duplicate_filter [none]: Duplicate filtering completed: 10 unique, 490 duplicates removed in 105.5ms | 
+2026-04-14 22:08:34 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 10 URL hashes, 10 seen articles | 
+2026-04-14 22:08:34 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-14 22:09:08 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 10 URL hashes, 10 seen articles | 
+2026-04-14 22:09:08 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-15 15:57:16 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 10 URL hashes, 10 seen articles | 
+2026-04-15 15:57:16 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-15 15:57:54 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 10 URL hashes, 10 seen articles | 
+2026-04-15 15:57:54 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-15 15:57:54 [INFO] duplicate_filter [none]: Duplicate filtering completed: 1 unique, 499 duplicates removed in 772.5ms | 
+2026-04-15 15:58:07 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 11 URL hashes, 11 seen articles | 
+2026-04-15 15:58:07 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-15 15:58:27 [INFO] duplicate_filter [none]: Duplicate filtering completed: 408 unique, 92 duplicates removed in 20238.3ms | 
+2026-04-15 23:57:59 [INFO] env_validator [none]: Environment validation completed successfully | 
+2026-04-15 23:57:59 [INFO] env_validator [none]: Environment validation completed successfully | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:57:59 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:57:59 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:00 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:00 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:00 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:00 [INFO] performance_tracker [none]: Loaded performance state: 0 pipeline runs, 0 stage metrics | 
+2026-04-15 23:58:52 [INFO] env_validator [none]: Environment validation completed successfully | 
+2026-04-15 23:58:52 [INFO] env_validator [none]: Environment validation completed successfully | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:52 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:52 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:52 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:52 [INFO] performance_tracker [none]: Loaded performance state: 0 pipeline runs, 0 stage metrics | 
+2026-04-15 23:58:52 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:52 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:52 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:58:52 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:58:52 [INFO] performance_tracker [none]: Loaded performance state: 0 pipeline runs, 0 stage metrics | 
+2026-04-15 23:58:52 [INFO] orchestrator [none]: Pipeline started: 62fed70d-f251-443c-af60-b26c127a3382 | 
+2026-04-15 23:58:52 [INFO] orchestrator [none]: Fetching news from 14 RSS sources | 
+2026-04-15 23:58:52 [INFO] news_collector [none]: Fetching 14 RSS feeds | 
+2026-04-15 23:58:53 [WARNING] news_collector [none]: Feed fetch failed: https://www.reuters.com/business/ - HTTP 401: HTTP Forbidden | 
+2026-04-15 23:58:54 [WARNING] news_collector [none]: Feed fetch failed: https://www.bloomberg.com/markets/ - HTTP 403: Forbidden | 
+2026-04-15 23:58:55 [WARNING] news_collector [none]: Feed fetch failed: https://www.wsj.com/markets - HTTP 401: HTTP Forbidden | 
+2026-04-15 23:58:56 [WARNING] news_collector [none]: Feed parsing error: https://www.federalreserve.gov/newsevents/pressreleases.htm - Feed parsing error: <unknown>:2:0: syntax error | 
+2026-04-15 23:58:56 [INFO] news_collector [none]: Feed fetched successfully: https://www.federalreserve.gov/newsevents/pressreleases.htm - 0 articles in 685.5ms | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Feed parsing error: https://home.treasury.gov/news/press-releases - Feed parsing error: <unknown>:7:45: not well-formed (invalid token) | 
+2026-04-15 23:58:57 [INFO] news_collector [none]: Feed fetched successfully: https://home.treasury.gov/news/press-releases - 0 articles in 708.7ms | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:58:57 [INFO] news_collector [none]: Feed fetched successfully: https://www.coindesk.com/arc/outboundfeeds/rss/ - 0 articles in 702.2ms | 
+2026-04-15 23:58:59 [WARNING] news_collector [none]: Feed parsing error: https://www.cnbc.com/markets/ - Feed parsing error: <unknown>:32:11079: not well-formed (invalid token) | 
+2026-04-15 23:58:59 [INFO] news_collector [none]: Feed fetched successfully: https://www.cnbc.com/markets/ - 0 articles in 789.2ms | 
+2026-04-15 23:58:59 [WARNING] news_collector [none]: Feed parsing error: https://www.marketwatch.com/ - Feed parsing error: <unknown>:8:277: not well-formed (invalid token) | 
+2026-04-15 23:58:59 [INFO] news_collector [none]: Feed fetched successfully: https://www.marketwatch.com/ - 0 articles in 646.9ms | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Feed parsing error: https://www.bea.gov/news - Feed parsing error: <unknown>:20:78: not well-formed (invalid token) | 
+2026-04-15 23:59:01 [INFO] news_collector [none]: Feed fetched successfully: https://www.bea.gov/news - 0 articles in 970.8ms | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:01 [INFO] news_collector [none]: Feed fetched successfully: https://finance.yahoo.com/rss/ - 0 articles in 566.0ms | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-15 23:59:02 [INFO] news_collector [none]: Feed fetched successfully: https://seekingalpha.com/feed.xml - 0 articles in 608.3ms | 
+2026-04-15 23:59:02 [INFO] news_collector [none]: Feed fetched successfully: https://cointelegraph.com/rss - 30 articles in 571.3ms | 
+2026-04-15 23:59:03 [WARNING] news_collector [none]: Feed fetch failed: https://oilprice.com/rss/latest - HTTP 404: Not Found | 
+2026-04-15 23:59:04 [WARNING] news_collector [none]: Feed parsing error: https://www.kitco.com/news/rss - Feed parsing error: <unknown>:19:594: not well-formed (invalid token) | 
+2026-04-15 23:59:04 [INFO] news_collector [none]: Feed fetched successfully: https://www.kitco.com/news/rss - 0 articles in 798.7ms | 
+2026-04-15 23:59:04 [INFO] news_collector [none]: Fetched 30 articles from 10/14 feeds in 11809.1ms | 
+2026-04-15 23:59:04 [INFO] orchestrator [none]: News fetching completed: 30 articles fetched | 
+2026-04-15 23:59:04 [INFO] orchestrator [none]: Deduplicating 30 articles | 
+2026-04-15 23:59:04 [INFO] duplicate_filter [none]: Filtering duplicates from 30 articles | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: version, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: created_at, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: last_updated, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: pipeline_state, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: positions, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: orders, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: risk_metrics, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: validation_memory, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: performance_metrics, adding default | 
+2026-04-15 23:59:05 [WARNING] state_manager [none]: Missing state key: metadata, adding default | 
+2026-04-15 23:59:05 [INFO] duplicate_filter [none]: Duplicate filtering completed: 30 unique, 0 duplicates removed in 254.3ms | 
+2026-04-15 23:59:05 [ERROR] orchestrator [none]: Deduplication failed: 'DuplicateFilter' object has no attribute 'get_duplicate_stats' | 
+2026-04-15 23:59:05 [INFO] performance_tracker [none]: Pipeline completed: 12077.31ms, 0 articles, 0 signals | 
+2026-04-16 00:00:23 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 30 URL hashes, 30 seen articles | 
+2026-04-16 00:00:23 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:00:46 [INFO] duplicate_filter [none]: Duplicate filtering completed: 410 unique, 90 duplicates removed in 22770.2ms | 
+2026-04-16 00:01:32 [ERROR] news_collector [none]: Feed fetch timeout: https://timeout-test.com/feed | 
+2026-04-16 00:01:40 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 440 URL hashes, 440 seen articles | 
+2026-04-16 00:01:40 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:01:41 [INFO] duplicate_filter [none]: Duplicate filtering completed: 0 unique, 500 duplicates removed in 640.7ms | 
+2026-04-16 00:01:57 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 440 URL hashes, 440 seen articles | 
+2026-04-16 00:01:57 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:02:07 [INFO] duplicate_filter [none]: Duplicate filtering completed: 90 unique, 410 duplicates removed in 9936.7ms | 
+2026-04-16 00:02:28 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 530 URL hashes, 530 seen articles | 
+2026-04-16 00:02:28 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:02:28 [INFO] duplicate_filter [none]: Duplicate filtering completed: 0 unique, 500 duplicates removed in 46.8ms | 
+2026-04-16 00:02:41 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 530 URL hashes, 530 seen articles | 
+2026-04-16 00:03:01 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:03:01 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-16 00:03:01 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:03:26 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:03:26 [INFO] duplicate_filter [none]: Duplicate filtering completed: 500 unique, 0 duplicates removed in 24494.2ms | 
+2026-04-16 00:03:37 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 500 URL hashes, 500 seen articles | 
+2026-04-16 00:03:37 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:03:37 [INFO] duplicate_filter [none]: Duplicate filtering completed: 0 unique, 500 duplicates removed in 81.1ms | 
+2026-04-16 00:03:55 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:03:55 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-16 00:03:55 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:04:19 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:04:19 [INFO] duplicate_filter [none]: Duplicate filtering completed: 500 unique, 0 duplicates removed in 24928.2ms | 
+2026-04-16 00:04:37 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:04:37 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-16 00:04:37 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:05:02 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:05:02 [INFO] duplicate_filter [none]: Duplicate filtering completed: 500 unique, 0 duplicates removed in 25145.7ms | 
+2026-04-16 00:05:19 [ERROR] news_collector [none]: Feed fetch timeout: https://timeout-test.com/feed | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Feed parsing error: https://bad-xml.com/feed - Feed parsing error: <unknown>:2:22: no element found | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://bad-xml.com/feed - 0 articles in 1.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 1.0ms | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 1.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 5.8ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 6.1ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 1.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 6.8ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 1.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 1.0ms | 
+2026-04-16 00:05:20 [WARNING] news_collector [none]: Failed to parse entry: Article content cannot be empty | 
+2026-04-16 00:05:20 [INFO] news_collector [none]: Feed fetched successfully: https://test.com/feed - 0 articles in 0.0ms | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to load state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [ERROR] state_manager [none]: Failed to save state: (1, '[Errno 13] Permission denied') | 
+2026-04-16 00:05:20 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-16 00:05:20 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-16 00:05:20 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-16 00:05:20 [INFO] risk_manager [none]: Position updated: TEST qty=100 P&L=0.000 daily P&L=0.000 consecutive_losses=0 | 
+2026-04-16 00:05:20 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=10000.000, positions=1 | 
+2026-04-16 00:05:20 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:05:20 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 0 URL hashes, 0 seen articles | 
+2026-04-16 00:05:20 [INFO] duplicate_filter [none]: Filtering duplicates from 500 articles | 
+2026-04-16 00:05:45 [INFO] state_manager [none]: State file not found, returning empty state | 
+2026-04-16 00:05:45 [INFO] duplicate_filter [none]: Duplicate filtering completed: 500 unique, 0 duplicates removed in 25270.7ms | 
+2026-04-16 00:05:45 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 500 URL hashes, 500 seen articles | 
+2026-04-16 00:05:45 [INFO] duplicate_filter [none]: Filtering duplicates from 1000 articles | 
+2026-04-16 00:06:13 [INFO] duplicate_filter [none]: Duplicate filtering completed: 0 unique, 1000 duplicates removed in 27962.5ms | 
+2026-04-16 00:06:13 [INFO] news_collector [none]: Fetching 5 RSS feeds | 
+2026-04-16 00:06:13 [INFO] news_collector [none]: Feed fetched successfully: https://good-feed1.com - 0 articles in 0.0ms | 
+2026-04-16 00:06:13 [ERROR] news_collector [none]: Feed fetch timeout: https://timeout-feed.com | 
+2026-04-16 00:06:13 [INFO] news_collector [none]: Feed fetched successfully: https://good-feed2.com - 0 articles in 1.0ms | 
+2026-04-16 00:06:13 [WARNING] news_collector [none]: Feed fetch failed: https://error-feed.com - HTTP 500: Internal Server Error | 
+2026-04-16 00:06:13 [INFO] news_collector [none]: Feed fetched successfully: https://good-feed3.com - 0 articles in 1.0ms | 
+2026-04-16 00:06:13 [INFO] news_collector [none]: Fetched 0 articles from 3/5 feeds in 10.0ms | 
+2026-04-16 00:06:13 [INFO] source_registry [none]: Loaded 14 default RSS sources | 
+2026-04-16 00:06:13 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 501 URL hashes, 501 seen articles | 
+2026-04-16 00:06:13 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
+2026-04-16 00:06:13 [INFO] performance_tracker [none]: Loaded performance state: 0 pipeline runs, 0 stage metrics | 
