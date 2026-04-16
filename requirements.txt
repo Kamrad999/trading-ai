@@ -1,20 +1,21 @@
-# Core dependencies
-feedparser>=6.0.10
-requests>=2.31.0
-portalocker>=3.0.0
+# TRADING-AI v1.0.0 Production Dependencies
+# Core dependencies - pinned for production stability
+feedparser==6.0.12
+requests==2.33.1
+portalocker==3.2.0
 
-# Development dependencies
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
-pytest-cov>=4.1.0
-black>=23.7.0
-isort>=5.12.0
-mypy>=1.5.0
-pre-commit>=3.3.0
+# Development dependencies - pinned for production consistency
+pytest==9.0.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.7.0
+isort==5.12.0
+mypy==1.5.1
+pre-commit==3.3.0
 
-# Optional dependencies for enhanced functionality
-aiohttp>=3.8.0
-asyncio-mqtt>=0.13.0
-pandas>=2.0.0
-numpy>=1.24.0
-python-dotenv>=1.0.0
+# Optional dependencies for enhanced functionality - pinned for production
+aiohttp==3.8.6
+asyncio-mqtt==0.13.0
+pandas==2.0.3
+numpy==1.24.3
+python-dotenv==1.0.0
