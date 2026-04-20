@@ -1381,3 +1381,21 @@
 2026-04-16 00:06:13 [INFO] duplicate_filter [none]: Loaded duplicate filter state: 501 URL hashes, 501 seen articles | 
 2026-04-16 00:06:13 [INFO] risk_manager [none]: Loaded risk state: PnL=0.000, exposure=0.000, positions=0 | 
 2026-04-16 00:06:13 [INFO] performance_tracker [none]: Loaded performance state: 0 pipeline runs, 0 stage metrics | 
+2026-04-19 18:02:27 [INFO] event_classifier [none]: EventClassifier initialized with LLM-based contextual reasoning | 
+2026-04-19 18:02:27 [INFO] impact_model [none]: ImpactModel initialized with institutional-grade prediction models | 
+2026-04-19 18:02:27 [INFO] market_microstructure [none]: MarketMicrostructure initialized with institutional-grade analysis | 
+2026-04-19 18:02:27 [INFO] execution_engine [none]: ExecutionEngine initialized with Jesse-style execution algorithms | 
+2026-04-19 18:02:27 [INFO] position_manager [none]: PositionManager initialized with $100,000.00 portfolio | 
+2026-04-19 18:02:27 [INFO] learning_engine [none]: LearningEngine initialized with FinRL-style adaptive learning | 
+2026-04-19 18:02:27 [INFO] multi_factor_model [none]: MultiFactorModel initialized with Qlib-style factor analysis | 
+2026-04-19 18:02:27 [INFO] strategy_manager [none]: StrategyManager initialized | 
+2026-04-19 18:02:27 [INFO] multi_factor_model [none]: MultiFactorModel initialized with Qlib-style factor analysis | 
+2026-04-19 18:02:27 [INFO] strategy.NewsStrategy [none]: Strategy initialized: NewsStrategy | 
+2026-04-19 18:02:27 [INFO] multi_factor_model [none]: MultiFactorModel initialized with Qlib-style factor analysis | 
+2026-04-19 18:02:27 [INFO] strategy.TechnicalStrategy [none]: Strategy initialized: TechnicalStrategy | 
+2026-04-19 18:02:27 [INFO] multi_factor_model [none]: MultiFactorModel initialized with Qlib-style factor analysis | 
+2026-04-19 18:02:27 [INFO] strategy.HybridStrategy [none]: Strategy initialized: HybridStrategy | 
+2026-04-19 18:02:27 [INFO] strategy_manager [none]: Strategy registered: NewsStrategy | 
+2026-04-19 18:02:27 [INFO] strategy_manager [none]: Strategy registered: TechnicalStrategy | 
+2026-04-19 18:02:27 [INFO] strategy_manager [none]: Strategy registered: HybridStrategy | 
+2026-04-19 18:02:27 [INFO] alpha_tracker [none]: AlphaTracker initialized with benchmark: SPY | 

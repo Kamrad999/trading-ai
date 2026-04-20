@@ -46,14 +46,14 @@ class BacktestConfig:
 @dataclass
 class BacktestResult:
     """Results from backtest following VectorBT output format."""
+    # Core data (no defaults)
     equity_curve: pd.DataFrame
     trades: pd.DataFrame
     performance_metrics: Dict[str, float]
     positions: pd.DataFrame
     signals: pd.DataFrame
-    benchmark: Optional[pd.DataFrame] = None
     
-    # Summary statistics
+    # Summary statistics (no defaults)
     total_return: float
     annual_return: float
     sharpe_ratio: float
@@ -63,7 +63,7 @@ class BacktestResult:
     profit_factor: float
     avg_trade_duration: float
     
-    # Trade statistics
+    # Trade statistics (no defaults)
     total_trades: int
     winning_trades: int
     losing_trades: int
@@ -71,6 +71,9 @@ class BacktestResult:
     avg_loss: float
     largest_win: float
     largest_loss: float
+    
+    # Optional fields with defaults (must come last)
+    benchmark: Optional[pd.DataFrame] = None
 
 
 class BacktestEngine:
