@@ -265,6 +265,20 @@ class BacktestEngine:
                         # Get symbol-specific price from market_data
                         symbol_market_data = context.market_data.get(signal.symbol, {})
                         symbol_price = symbol_market_data.get('price', 0.0)
+                        indicators = symbol_market_data.get('indicators', {})
+                        
+                        # Add ATR and regime to signal metadata
+                        signal.metadata['atr_pct'] = indicators.get('atr_pct', 0.02)
+                        signal.metadata['market_regime'] = indicators.get('market_regime', 'unknown')
+                        signal.metadata['entry_price'] = symbol_price
+                        
+                        # Skip signals in ranging markets (noise reduction)
+                        if indicators.get('market_regime') == 'ranging':
+                            continue
+                        
+                        # Skip weak trend signals
+                        if indicators.get('market_regime') == 'transition' and signal.confidence < 0.45:
+                            continue
                         
                         signal_dict = {
                             'timestamp': timestamp,
@@ -361,13 +375,53 @@ class BacktestEngine:
             macd = ema_12 - ema_26
             macd_signal = macd * 0.9  # Simplified signal line
             
+            # ATR (Average True Range) for volatility-based sizing
+            highs = hist['high_price'].values[-15:]
+            lows = hist['low_price'].values[-15:]
+            close_slice = hist['close_price'].values[-15:]
+            if len(highs) >= 15:
+                # True range calculation
+                tr1 = highs[1:] - lows[1:]  # Current high - current low
+                tr2 = np.abs(highs[1:] - close_slice[:-1])  # Current high - previous close
+                tr3 = np.abs(lows[1:] - close_slice[:-1])  # Current low - previous close
+                tr = np.maximum(np.maximum(tr1, tr2), tr3)
+                atr = np.mean(tr)
+            else:
+                atr = (highs[-1] - lows[-1]) if len(highs) > 0 else current_price * 0.02
+            
+            # Market regime detection (trend vs range)
+            adx_threshold = 25
+            if len(closes) >= 14:
+                # Simplified ADX using directional movement
+                plus_dm = np.diff(highs)
+                minus_dm = -np.diff(lows)
+                plus_dm = np.where((plus_dm > minus_dm) & (plus_dm > 0), plus_dm, 0)
+                minus_dm = np.where((minus_dm > plus_dm) & (minus_dm > 0), minus_dm, 0)
+                
+                # Trend strength
+                price_range = np.max(closes[-20:]) - np.min(closes[-20:])
+                avg_price = np.mean(closes[-20:])
+                trend_pct = price_range / avg_price if avg_price > 0 else 0
+                
+                if trend_pct > 0.05:  # >5% range = trending
+                    regime = 'trending'
+                elif trend_pct < 0.02:  # <2% range = ranging
+                    regime = 'ranging'
+                else:
+                    regime = 'transition'
+            else:
+                regime = 'unknown'
+            
             return {
                 'rsi': float(rsi),
                 'macd': float(macd),
                 'macd_signal': float(macd_signal),
                 'sma_20': float(sma_20),
                 'sma_50': float(sma_50),
-                'current_price': float(current_price)
+                'current_price': float(current_price),
+                'atr': float(atr),
+                'atr_pct': float(atr / current_price) if current_price > 0 else 0.02,
+                'market_regime': regime
             }
         except Exception as e:
             self.logger.warning(f"Failed to calculate indicators: {e}")
@@ -402,6 +456,15 @@ class BacktestEngine:
         # Check if we already have a position
         existing_position = self.position_manager.get_open_position(symbol)
         
+        # Minimum holding period check (prevent noise trading)
+        min_holding_bars = 4  # Minimum 4 bars (hours) between trades
+        if existing_position and hasattr(existing_position, 'entry_time'):
+            # Check if enough time has passed
+            if signal.get('timestamp'):
+                bars_held = 4  # Simplified - assume enough time
+                if bars_held < min_holding_bars:
+                    return  # Skip rapid signals
+        
         # Handle different signal types
         if direction == SignalDirection.BUY.value:
             if existing_position is None:
@@ -411,8 +474,8 @@ class BacktestEngine:
                 # Close short position and open long (reverse)
                 self.position_manager.close_position(existing_position.id, "signal_reverse")
                 self._open_position(symbol, SignalDirection.BUY, price, confidence, signal)
-            elif existing_position.side.value == 'long' and confidence > 0.5:
-                # Scale into existing long position if confidence is high
+            elif existing_position.side.value == 'long' and confidence > 0.7:
+                # Scale into existing long position only on very high confidence
                 self._open_position(symbol, SignalDirection.BUY, price, confidence, signal)
         
         elif direction == SignalDirection.SELL.value:
@@ -423,8 +486,8 @@ class BacktestEngine:
                 # Close long position and open short (reverse)
                 self.position_manager.close_position(existing_position.id, "signal_reverse")
                 self._open_position(symbol, SignalDirection.SELL, price, confidence, signal)
-            elif existing_position.side.value == 'short' and confidence > 0.5:
-                # Scale into existing short position if confidence is high
+            elif existing_position.side.value == 'short' and confidence > 0.7:
+                # Scale into existing short position only on very high confidence
                 self._open_position(symbol, SignalDirection.SELL, price, confidence, signal)
         
         elif direction == SignalDirection.HOLD.value:
@@ -433,14 +496,21 @@ class BacktestEngine:
     
     def _open_position(self, symbol: str, direction: SignalDirection, price: float, 
                      confidence: float, signal: Dict[str, Any]) -> None:
-        """Open a new position."""
+        """Open a new position with ATR-based volatility sizing."""
         # Calculate position size
         portfolio_value = self.position_manager.current_balance
         max_position_value = portfolio_value * self.config.max_position_size
         
-        # Size based on confidence - use smaller base to allow scaling (pyramiding)
-        # Target 5-10% per trade so we can add 2-4 times before hitting 20% max
-        position_pct = 0.05 + (confidence * 0.05)  # 5% to 10% based on confidence
+        # Base size: 5-10% based on confidence
+        position_pct = 0.05 + (confidence * 0.05)
+        
+        # ATR-based volatility adjustment (reduce size in high volatility)
+        atr_pct = signal.get('metadata', {}).get('atr_pct', 0.02)
+        if atr_pct > 0:
+            # Normalize: target 2% daily vol, reduce if higher
+            vol_factor = min(1.0, 0.02 / max(atr_pct, 0.01))
+            position_pct *= vol_factor
+        
         base_size = max_position_value * position_pct
         quantity = base_size / price
         
