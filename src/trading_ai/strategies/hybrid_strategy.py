@@ -35,9 +35,9 @@ class HybridStrategy(BaseStrategy):
         self.conflict_threshold = kwargs.get("conflict_threshold", 0.3)
         self.agreement_bonus = kwargs.get("agreement_bonus", 0.2)
         
-        # Confluence requirements (disabled by default to allow single-factor signals)
-        self.require_confluence = kwargs.get("require_confluence", False)
-        self.min_confluence_score = kwargs.get("min_confluence_score", 0.3)
+        # Confluence requirements (enabled for quality signals)
+        self.require_confluence = kwargs.get("require_confluence", True)
+        self.min_confluence_score = kwargs.get("min_confluence_score", 0.6)
         
         # Risk adjustments
         self.hybrid_stop_loss = kwargs.get("hybrid_stop_loss", 0.05)
@@ -230,8 +230,8 @@ class HybridStrategy(BaseStrategy):
         technical_signal = (rsi_signal * 0.3 + macd_signal * 0.4 + sma_signal * 0.3)
         technical_strength = (abs(rsi_signal) + abs(macd_signal) + abs(sma_signal)) / 3
         
-        # Ensure minimum confidence so signals aren't filtered out
-        confidence = max(0.3, min(0.9, technical_strength))
+        # Natural confidence based on indicator strength
+        confidence = min(0.9, technical_strength)
         
         return {
             "signal": technical_signal,
@@ -305,8 +305,8 @@ class HybridStrategy(BaseStrategy):
             if total_weight > 0 else 0.0
         )
         
-        # Apply agreement bonus
-        combined_confidence = min(0.95, max(0.1, combined_confidence + confidence_bonus))
+        # Apply agreement bonus (no artificial floor)
+        combined_confidence = min(0.95, combined_confidence + confidence_bonus)
         
         # Calculate combined strength
         news_strength = news_analysis.get("strength", 0.0) if news_valid else 0.0
@@ -385,22 +385,34 @@ class HybridStrategy(BaseStrategy):
         strength = combined_analysis["strength"]
         conditions = combined_analysis["conditions"]
         
-        # Determine signal direction (lowered threshold to 0.1 for more signals)
-        if combined_signal > 0.1:
+        # Check confluence requirement
+        if self.require_confluence:
+            news_valid = combined_analysis.get("news_valid", False)
+            technical_valid = combined_analysis.get("technical_valid", False)
+            signal_agreement = combined_analysis.get("signal_agreement", 0.5)
+            
+            # Require at least one factor to be valid with good agreement
+            if not (news_valid or technical_valid):
+                return None
+            
+            # If both valid, require minimum agreement score
+            if news_valid and technical_valid and signal_agreement < self.min_confluence_score:
+                return None
+        
+        # Determine signal direction (require stronger signals for quality)
+        if combined_signal > 0.4:
             direction = SignalDirection.BUY
             urgency = Urgency.HIGH if combined_signal > 0.7 else Urgency.MEDIUM
             reason = f"Hybrid BUY signal: {'; '.join(conditions)}"
-        elif combined_signal < -0.1:
+        elif combined_signal < -0.4:
             direction = SignalDirection.SELL
             urgency = Urgency.HIGH if combined_signal < -0.7 else Urgency.MEDIUM
             reason = f"Hybrid SELL signal: {'; '.join(conditions)}"
         else:
-            # Weak or conflicting signals - generate HOLD signal
-            direction = SignalDirection.HOLD
-            urgency = Urgency.LOW
-            reason = f"Hybrid HOLD signal: {'; '.join(conditions)}"
+            # Weak or conflicting signals - no trade
+            return None
         
-        # Adjust confidence based on confluence
+        # Adjust confidence based on agreement
         if combined_analysis.get("signal_agreement", 0.5) > 0.7:
             confidence = min(0.95, confidence * 1.1)  # Boost for strong agreement
         elif combined_analysis.get("signal_agreement", 0.5) < 0.3:

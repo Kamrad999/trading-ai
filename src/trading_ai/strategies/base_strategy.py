@@ -203,8 +203,21 @@ class BaseStrategy(IStrategy):
         # Default implementation - can be overridden
         
         if signal.direction == SignalDirection.BUY:
-            # Check if we already have maximum position
-            if current_position >= context.portfolio_value * self.max_position_size:
+            # Get current position value from market data
+            symbol_data = context.market_data.get(signal.symbol, {})
+            current_price = symbol_data.get('price', signal.metadata.get('entry_price', 0))
+            current_position_value = current_position * current_price if current_price > 0 else 0
+            
+            # Allow scaling up to max_position_size, with buffer for rounding
+            max_position_value = context.portfolio_value * self.max_position_size
+            
+            # Debug logging
+            if current_position > 0:
+                self.logger.debug(f"Position check for {signal.symbol}: current=${current_position_value:.2f}, max=${max_position_value:.2f}, price=${current_price:.2f}, qty={current_position}")
+            
+            if current_position_value >= max_position_value * 0.95:  # Within 5% of max
+                if current_position > 0:
+                    self.logger.debug(f"Position blocked: at or near max size")
                 return False
         
         elif signal.direction == SignalDirection.SELL:

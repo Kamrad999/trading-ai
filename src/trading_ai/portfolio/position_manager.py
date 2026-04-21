@@ -287,23 +287,28 @@ class PositionManager:
     
     def _check_position_limits(self, request: PositionRequest) -> bool:
         """Check if position request respects limits."""
-        # Check max positions
-        if len(self.open_positions) >= self.max_positions:
+        # Check max positions count (different symbols)
+        existing_position = self.get_open_position(request.symbol)
+        if not existing_position and len(self.open_positions) >= self.max_positions:
             self.logger.warning(f"Max positions reached: {self.max_positions}")
             return False
         
-        # Check if already have position for this symbol
-        existing_position = self.get_open_position(request.symbol)
+        # Check total position size for this symbol (allow scaling/pyramiding)
+        existing_value = 0.0
         if existing_position:
-            self.logger.warning(f"Already have open position for {request.symbol}")
-            return False
+            existing_value = existing_position.current_value
         
-        # Check position size
-        position_value = request.quantity * request.entry_price
+        new_position_value = request.quantity * request.entry_price
+        total_position_value = existing_value + new_position_value
         max_allowed = self.current_balance * self.max_position_size
         
-        if position_value > max_allowed:
-            self.logger.warning(f"Position too large: ${position_value:.2f} > ${max_allowed:.2f}")
+        if total_position_value > max_allowed * 1.05:  # Allow 5% overflow for rounding
+            self.logger.warning(f"Total position would exceed max: ${total_position_value:.2f} > ${max_allowed:.2f}")
+            return False
+        
+        # Check individual trade size
+        if new_position_value > max_allowed * 0.5:  # Single trade max 50% of max position
+            self.logger.warning(f"Trade too large: ${new_position_value:.2f}")
             return False
         
         return True

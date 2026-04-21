@@ -120,21 +120,23 @@ class BacktestEngine:
         for strategy_name in strategy_names:
             if strategy_name == "NewsStrategy":
                 strategies[strategy_name] = NewsStrategy(
-                    min_confidence=0.1,
+                    min_confidence=0.35,
                     max_position_size=self.config.max_position_size,
                     stop_loss_pct=self.config.stop_loss_pct,
                     take_profit_pct=self.config.take_profit_pct
                 )
             elif strategy_name == "TechnicalStrategy":
                 strategies[strategy_name] = TechnicalStrategy(
-                    min_confidence=0.1,
+                    min_confidence=0.35,
                     max_position_size=self.config.max_position_size,
                     stop_loss_pct=self.config.stop_loss_pct,
                     take_profit_pct=self.config.take_profit_pct
                 )
             elif strategy_name == "HybridStrategy":
                 strategies[strategy_name] = HybridStrategy(
-                    min_confidence=0.1,
+                    min_confidence=0.35,
+                    require_confluence=True,
+                    min_confluence_score=0.6,
                     max_position_size=self.config.max_position_size,
                     stop_loss_pct=self.config.stop_loss_pct,
                     take_profit_pct=self.config.take_profit_pct
@@ -406,8 +408,11 @@ class BacktestEngine:
                 # Open new long position
                 self._open_position(symbol, SignalDirection.BUY, price, confidence, signal)
             elif existing_position.side.value == 'short':
-                # Close short position and open long
+                # Close short position and open long (reverse)
                 self.position_manager.close_position(existing_position.id, "signal_reverse")
+                self._open_position(symbol, SignalDirection.BUY, price, confidence, signal)
+            elif existing_position.side.value == 'long' and confidence > 0.5:
+                # Scale into existing long position if confidence is high
                 self._open_position(symbol, SignalDirection.BUY, price, confidence, signal)
         
         elif direction == SignalDirection.SELL.value:
@@ -415,8 +420,11 @@ class BacktestEngine:
                 # Open new short position
                 self._open_position(symbol, SignalDirection.SELL, price, confidence, signal)
             elif existing_position.side.value == 'long':
-                # Close long position and open short
+                # Close long position and open short (reverse)
                 self.position_manager.close_position(existing_position.id, "signal_reverse")
+                self._open_position(symbol, SignalDirection.SELL, price, confidence, signal)
+            elif existing_position.side.value == 'short' and confidence > 0.5:
+                # Scale into existing short position if confidence is high
                 self._open_position(symbol, SignalDirection.SELL, price, confidence, signal)
         
         elif direction == SignalDirection.HOLD.value:
@@ -430,8 +438,10 @@ class BacktestEngine:
         portfolio_value = self.position_manager.current_balance
         max_position_value = portfolio_value * self.config.max_position_size
         
-        # Size based on confidence
-        base_size = max_position_value * confidence
+        # Size based on confidence - use smaller base to allow scaling (pyramiding)
+        # Target 5-10% per trade so we can add 2-4 times before hitting 20% max
+        position_pct = 0.05 + (confidence * 0.05)  # 5% to 10% based on confidence
+        base_size = max_position_value * position_pct
         quantity = base_size / price
         
         # Calculate stop loss and take profit
