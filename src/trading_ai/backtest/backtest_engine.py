@@ -431,19 +431,55 @@ class BacktestEngine:
         """Simulate trade execution following VectorBT patterns."""
         self.logger.info("Simulating trades...")
         
-        # Sort signals by timestamp
-        sorted_signals = sorted(self.signals, key=lambda x: x['timestamp'])
+        # Get all unique timestamps from price data
+        all_timestamps = set()
+        for symbol, df in self.price_data.items():
+            all_timestamps.update(df.index)
+        sorted_timestamps = sorted(all_timestamps)
         
-        for signal in sorted_signals:
-            try:
-                self._process_signal(signal)
-            except Exception as e:
-                self.logger.error(f"Failed to process signal: {e}")
+        # Group signals by timestamp for efficient processing
+        signals_by_time = {}
+        for signal in self.signals:
+            ts = signal['timestamp']
+            if ts not in signals_by_time:
+                signals_by_time[ts] = []
+            signals_by_time[ts].append(signal)
         
-        # Close all positions at the end
+        # Process each timestamp
+        for timestamp in sorted_timestamps:
+            # CRITICAL: Update position prices BEFORE processing signals
+            current_prices = {}
+            for symbol, df in self.price_data.items():
+                if timestamp in df.index:
+                    current_prices[symbol] = df.loc[timestamp, 'close_price']
+            
+            # Update all open positions with current prices
+            if current_prices:
+                self.position_manager.update_prices(current_prices)
+            
+            # Process signals at this timestamp
+            if timestamp in signals_by_time:
+                for signal in signals_by_time[timestamp]:
+                    try:
+                        self._process_signal(signal)
+                    except Exception as e:
+                        self.logger.error(f"Failed to process signal: {e}")
+        
+        # Close all positions at the end using FINAL prices
         final_positions = self.position_manager.get_open_positions()
         if final_positions:
             self.logger.info(f"Closing {len(final_positions)} positions at end of backtest")
+            # Get final prices for accurate P&L
+            final_prices = {}
+            for symbol, df in self.price_data.items():
+                if len(df) > 0:
+                    final_prices[symbol] = df['close_price'].iloc[-1]
+            
+            # Update prices one final time before closing
+            if final_prices:
+                self.position_manager.update_prices(final_prices)
+            
+            # Now close with accurate P&L
             self.position_manager.close_all_positions("end_of_backtest")
     
     def _process_signal(self, signal: Dict[str, Any]) -> None:
