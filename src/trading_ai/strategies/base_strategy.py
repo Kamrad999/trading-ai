@@ -221,9 +221,12 @@ class BaseStrategy(IStrategy):
                 return False
         
         elif signal.direction == SignalDirection.SELL:
-            # Check if we have position to sell
-            if current_position <= 0:
-                return False
+            # For SELL signals:
+            # - If we have a long position, we can close it (profit/loss)
+            # - If we have no position or short position, we can open/add to short
+            # Either way, SELL signals should be allowed for short selling strategy
+            # The actual position management happens in backtest_engine
+            pass
         
         return True
     
