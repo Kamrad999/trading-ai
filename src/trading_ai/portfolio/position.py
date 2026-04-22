@@ -89,16 +89,34 @@ class Position:
         self._check_exit_conditions()
     
     def _update_financials(self) -> None:
-        """Update financial calculations."""
+        """Update financial calculations with verification."""
         # Entry and current values
         self.entry_value = self.entry_price * self.quantity
         self.current_value = self.current_price * self.quantity
         
-        # P&L calculations
+        # P&L calculations with sign verification
         if self.side == PositionSide.LONG:
-            self.unrealized_pnl = (self.current_price - self.entry_price) * self.quantity
+            raw_pnl = (self.current_price - self.entry_price) * self.quantity
+            # For long: profit when price goes up
+            price_diff = self.current_price - self.entry_price
         else:  # SHORT
-            self.unrealized_pnl = (self.entry_price - self.current_price) * self.quantity
+            raw_pnl = (self.entry_price - self.current_price) * self.quantity
+            # For short: profit when price goes down
+            price_diff = self.entry_price - self.current_price
+        
+        # Verify: P&L sign should match price_diff sign (assuming positive quantity)
+        if raw_pnl != 0 and price_diff != 0 and self.quantity > 0:
+            pnl_sign = 1 if raw_pnl > 0 else -1
+            diff_sign = 1 if price_diff > 0 else -1
+            if pnl_sign != diff_sign:
+                self.logger.error(
+                    f"P&L SIGN ERROR: {self.id} {self.symbol} {self.side.value} "
+                    f"qty={self.quantity:.6f} entry={self.entry_price:.2f} "
+                    f"current={self.current_price:.2f} raw_pnl={raw_pnl:.2f} "
+                    f"price_diff={price_diff:.2f}"
+                )
+        
+        self.unrealized_pnl = raw_pnl
         
         # P&L percentage
         if self.entry_value > 0:
