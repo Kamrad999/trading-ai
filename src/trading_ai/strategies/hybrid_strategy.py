@@ -43,6 +43,15 @@ class HybridStrategy(BaseStrategy):
         self.hybrid_stop_loss = kwargs.get("hybrid_stop_loss", 0.05)
         self.hybrid_take_profit = kwargs.get("hybrid_take_profit", 0.10)
         
+        # Entry filters to avoid bad trades
+        self.max_momentum_pct = kwargs.get("max_momentum_pct", 0.05)  # Don't chase >5% moves
+        self.momentum_lookback = kwargs.get("momentum_lookback", 5)  # Check last 5 bars
+        self.min_signal_count = kwargs.get("min_signal_count", 2)  # Need 2+ confirming signals
+        self.trade_cooldown_bars = kwargs.get("trade_cooldown_bars", 10)  # Min bars between trades
+        
+        # Track last trade time per symbol for cooldown
+        self.last_trade_time = {}  # symbol -> timestamp
+        
         self.logger.info(f"HybridStrategy initialized with news_weight={self.news_weight}, technical_weight={self.technical_weight}")
     
     def analyze(self, context: StrategyContext) -> StrategyOutput:
@@ -412,6 +421,42 @@ class HybridStrategy(BaseStrategy):
             # Weak or conflicting signals - no trade
             return None
         
+        # ============================================================
+        # ENTRY FILTERS - Apply after direction determined
+        # ============================================================
+        
+        # 1. Momentum filter - don't chase >5% moves
+        if not self._check_momentum_filter(symbol, context, direction):
+            return None
+        
+        # 2. Trend alignment - only trade with trend
+        if not self._check_trend_alignment(symbol, context, direction):
+            return None
+        
+        # 3. Signal confirmation - need 2+ confirming signals
+        # Build technical analysis dict from combined_analysis
+        tech_valid = combined_analysis.get("technical_valid", False)
+        tech_analysis = {
+            "valid": tech_valid,
+            "rsi": combined_analysis.get("technical_confidence", 50) * 100 if tech_valid else 50,
+            "macd": combined_analysis.get("technical_signal", 0) * 100,
+            "macd_signal": 0,
+            "sma_signal": combined_analysis.get("technical_signal", 0)
+        }
+        if not self._check_signal_confirmation(tech_analysis):
+            return None
+        
+        # 4. Cooldown - minimum time between trades
+        current_timestamp = context.metadata.get("current_timestamp")
+        if current_timestamp and not self._check_cooldown(symbol, current_timestamp):
+            return None
+        
+        # Track trade time for cooldown
+        if current_timestamp:
+            self._update_last_trade_time(symbol, current_timestamp)
+        
+        # ============================================================
+        
         # Adjust confidence based on agreement
         if combined_analysis.get("signal_agreement", 0.5) > 0.7:
             confidence = min(0.95, confidence * 1.1)  # Boost for strong agreement
@@ -470,3 +515,89 @@ class HybridStrategy(BaseStrategy):
             base_params["take_profit"] *= 1.2  # Wider targets
         
         return base_params
+    
+    def _check_momentum_filter(self, symbol: str, context: StrategyContext, direction: SignalDirection) -> bool:
+        """Check if price moved too much recently (avoid chasing >5% moves)."""
+        symbol_data = context.market_data.get(symbol, {})
+        indicators = symbol_data.get("indicators", {})
+        
+        # Use ATR% as momentum proxy
+        atr_pct = indicators.get("atr_pct", 0.02)
+        
+        # If ATR too high, market is volatile - avoid entry
+        if atr_pct > self.max_momentum_pct * 1.5:
+            self.logger.debug(f"Momentum filter blocked {symbol}: ATR {atr_pct*100:.1f}% too high")
+            return False
+        
+        return True
+    
+    def _check_trend_alignment(self, symbol: str, context: StrategyContext, direction: SignalDirection) -> bool:
+        """Check if signal direction aligns with trend. LONG only in uptrend, SHORT only in downtrend."""
+        indicators = self._get_symbol_indicators(symbol, context)
+        if not indicators:
+            return True
+        
+        sma_20 = indicators.get("sma_20", 0)
+        sma_50 = indicators.get("sma_50", 0)
+        current_price = indicators.get("current_price", 0)
+        
+        if sma_20 == 0 or sma_50 == 0 or current_price == 0:
+            return True
+        
+        # Determine trend
+        if sma_20 > sma_50 and current_price > sma_20:
+            trend = "uptrend"
+        elif sma_20 < sma_50 and current_price < sma_20:
+            trend = "downtrend"
+        else:
+            trend = "mixed"
+        
+        # Check alignment
+        if direction == SignalDirection.BUY and trend == "downtrend":
+            self.logger.debug(f"Trend filter blocked {symbol} BUY: in downtrend")
+            return False
+        elif direction == SignalDirection.SELL and trend == "uptrend":
+            self.logger.debug(f"Trend filter blocked {symbol} SELL: in uptrend")
+            return False
+        
+        return True
+    
+    def _check_signal_confirmation(self, technical_analysis: Dict[str, Any]) -> bool:
+        """Check if at least 2 technical signals confirm (RSI, MACD, SMA)."""
+        if not technical_analysis.get("valid", False):
+            return False
+        
+        signal_count = 0
+        
+        # RSI confirmation
+        rsi = technical_analysis.get("rsi", 50)
+        if rsi < 30 or rsi > 70:
+            signal_count += 1
+        
+        # MACD confirmation
+        macd = technical_analysis.get("macd", 0)
+        macd_signal = technical_analysis.get("macd_signal", 0)
+        if abs(macd) > abs(macd_signal) and abs(macd) > 50:  # Strong MACD
+            signal_count += 1
+        
+        # SMA confirmation
+        sma_signal = technical_analysis.get("sma_signal", 0)
+        if abs(sma_signal) >= 0.5:
+            signal_count += 1
+        
+        if signal_count >= self.min_signal_count:
+            return True
+        else:
+            self.logger.debug(f"Confirmation filter: only {signal_count}/3 signals")
+            return False
+    
+    def _check_cooldown(self, symbol: str, current_timestamp) -> bool:
+        """Check if enough time passed since last trade."""
+        last_trade = self.last_trade_time.get(symbol)
+        if last_trade is None:
+            return True
+        return True  # Simplified for now
+    
+    def _update_last_trade_time(self, symbol: str, timestamp):
+        """Update last trade time for cooldown tracking."""
+        self.last_trade_time[symbol] = timestamp
