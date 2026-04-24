@@ -43,11 +43,11 @@ class HybridStrategy(BaseStrategy):
         self.hybrid_stop_loss = kwargs.get("hybrid_stop_loss", 0.05)
         self.hybrid_take_profit = kwargs.get("hybrid_take_profit", 0.10)
         
-        # Entry filters to avoid bad trades
-        self.max_momentum_pct = kwargs.get("max_momentum_pct", 0.05)  # Don't chase >5% moves
+        # Entry filters to avoid bad trades (RELAXED for 20-100 trades/month target)
+        self.max_momentum_pct = kwargs.get("max_momentum_pct", 0.08)  # Don't chase >8% moves (was 5%)
         self.momentum_lookback = kwargs.get("momentum_lookback", 5)  # Check last 5 bars
-        self.min_signal_count = kwargs.get("min_signal_count", 2)  # Need 2+ confirming signals
-        self.trade_cooldown_bars = kwargs.get("trade_cooldown_bars", 10)  # Min bars between trades
+        self.min_signal_count = kwargs.get("min_signal_count", 1)  # Need 1+ confirming signals (was 2)
+        self.trade_cooldown_bars = kwargs.get("trade_cooldown_bars", 5)  # Min 5 bars between trades (was 10)
         
         # Track last trade time per symbol for cooldown
         self.last_trade_time = {}  # symbol -> timestamp
@@ -596,7 +596,19 @@ class HybridStrategy(BaseStrategy):
         last_trade = self.last_trade_time.get(symbol)
         if last_trade is None:
             return True
-        return True  # Simplified for now
+        
+        # Check if enough bars have passed (assuming hourly data)
+        if hasattr(current_timestamp, 'to_pydatetime'):
+            current_timestamp = current_timestamp.to_pydatetime()
+        if hasattr(last_trade, 'to_pydatetime'):
+            last_trade = last_trade.to_pydatetime()
+        
+        # Calculate bars difference (assuming 1h timeframe)
+        time_diff = (current_timestamp - last_trade).total_seconds() / 3600  # hours
+        if time_diff < self.trade_cooldown_bars:
+            return False
+        
+        return True
     
     def _update_last_trade_time(self, symbol: str, timestamp):
         """Update last trade time for cooldown tracking."""
